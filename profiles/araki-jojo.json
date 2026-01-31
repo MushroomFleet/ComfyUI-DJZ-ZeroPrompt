@@ -1,0 +1,140 @@
+{
+  "name": "Araki-JoJo",
+  "description": "Hirohiko Araki's JoJo's Bizarre Adventure visual language - Renaissance sculpture meets Italian haute couture meets cinematic theatricality. Generates dramatic, fashion-forward image prompts with extreme poses, non-naturalistic color, and theatrical composition.",
+  "version": "1.0.0",
+
+  "templates": [
+    "{style}, {subject} {pose}, {body_detail}. {color_palette}. {composition}. {lighting}, {mood} atmosphere, {details}",
+    "{composition} of {subject} in {fashion}, {pose}. {body_detail}. {color_palette}. {lighting}, {style}, {mood}, {details}",
+    "{mood} {style}, {subject} {pose} wearing {fashion}. {body_detail}. {composition}. {color_palette}, {lighting}, {details}",
+    "{style} {subject} in {fashion}, {pose}, {body_detail}. {color_palette}. {lighting}. {composition}, {mood} presence, {details}",
+    "cinematic {composition}, {subject} {pose}, {body_detail}. {fashion}. {color_palette}, {lighting}, {style}, {mood}, {details}",
+    "{mood} illustration, {subject} wearing {fashion}, {pose}. {body_detail}. {color_palette}. {composition}, {lighting}, {details}",
+    "{style}, {composition} of {subject} {pose}. {fashion}. {body_detail}. {color_palette}, {lighting}, {mood} energy, {details}",
+    "theatrical {style}, {subject} in {fashion}, {pose}, {body_detail}. {composition}. {color_palette}. {lighting}, {mood}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a tall imposing man", "a muscular warrior", "an elegant young man", 
+      "a stylish gangster", "a mysterious figure", "a powerful villain",
+      "an athletic woman", "a fashion-forward youth", "a menacing antagonist",
+      "a determined protagonist", "a flamboyant fighter", "a charismatic leader",
+      "a stoic hero", "a cunning strategist", "an androgynous beauty",
+      "a confident stand user", "a brooding anti-hero", "a theatrical rival",
+      "a glamorous assassin", "an enigmatic stranger", "a fierce combatant",
+      "a regal figure", "a dangerous predator", "a striking silhouette",
+      "a dramatic ensemble of figures", "five distinct characters"
+    ],
+
+    "pose": [
+      "striking an extreme contrapposto pose", "in exaggerated S-curve stance",
+      "with spine arched impossibly", "weight shifted dramatically to one leg",
+      "in Baroque sculpture pose", "twisted dramatically at the torso",
+      "in calculated casual lean", "striking a fashion runway pose",
+      "in dynamic ready stance", "frozen mid-action", "in theatrical power stance",
+      "with weight thrown back dramatically", "in deliberate triangular composition",
+      "posed like Renaissance sculpture", "in extreme hip-angled stance",
+      "striking a Michelangelo-inspired pose", "in mannequin-like stillness",
+      "with torso twisted against hips", "in gravity-defying stance",
+      "posed with theatrical precision", "in confrontational stance",
+      "leaning with curved spine", "in commanding upright pose"
+    ],
+
+    "body_detail": [
+      "elbow bent at almost impossible angle framing shadowed face",
+      "fingers spread wide like shutter slats", "hands positioned as narrative devices",
+      "one arm raised with fingers spread wide", "rigid elegant fingers pointing toward viewer",
+      "free hand framing face dramatically", "elbows at improbable expressive angles",
+      "hands telling stories through gesture", "fingers spread in deliberate fan pattern",
+      "pointing with locked intent from shoulder to fingertip",
+      "arms creating angular geometric shapes", "wrists bent at dramatic angles",
+      "hands clasped with theatrical tension", "fingers intertwined expressively",
+      "one hand on hip with spread fingers", "both arms raised in victory pose",
+      "crossed arms with visible tension", "hand covering one eye mysteriously",
+      "Renaissance anatomical definition visible beneath clothing"
+    ],
+
+    "color_palette": [
+      "bold purple-gold villain palette dominates", "pink-cyan protagonist colors",
+      "cherry blossom tones against sky blue", "orange-black-gold gang identity colors",
+      "deep violet against golden warmth", "complementary colors clashing intentionally",
+      "vivid fuchsia pink and ocean blue", "burnt orange against deep purple",
+      "non-naturalistic saturated palette", "high saturation complementary scheme",
+      "purple fabric against gold accents", "cyan atmospheric background with orange subject",
+      "pink skin tones against blue shadows", "gold highlights on purple shadows",
+      "each figure with distinct color identity", "surreal color shifts throughout",
+      "Gauguin-inspired non-realistic colors", "emotion-driven palette choices"
+    ],
+
+    "composition": [
+      "extreme low angle shot making figure tower monumentally",
+      "low angle emphasizing imposing height and authority",
+      "Dutch angle creating psychological unease", "canted angle conveying wrongness",
+      "worm's eye view for maximum power", "high angle conveying vulnerability",
+      "medium shot from slight low angle", "theatrical Mie staging",
+      "negative space used actively to create tension", "deliberate triangular arrangement",
+      "centered composition with commanding presence", "rule of thirds with dramatic offset",
+      "figure positioned against pitch black negative space",
+      "active negative space directing focus", "cinematic wide establishing shot",
+      "tight framing emphasizing expression", "asymmetric dramatic framing"
+    ],
+
+    "lighting": [
+      "theatrical chiaroscuro divorced from realistic sources",
+      "face entirely darkened except gleaming eyes", "face half-shadowed with single illuminated eye",
+      "only intense eyes catching light against darkness", "dramatic rim lighting",
+      "harsh spotlight from above", "theatrical spotlight effect",
+      "mood lighting serving emotional truth", "strong shadows across features",
+      "illuminated eyes against shadowed face", "chiaroscuro emphasizing form",
+      "golden hour warmth with deep shadows", "stark high-contrast lighting",
+      "backlighting creating silhouette edges", "dramatic side lighting",
+      "theatrical darkness with selective illumination"
+    ],
+
+    "fashion": [
+      "sharp purple double-breasted suit with gold chain accessories",
+      "ornate gold-trimmed purple coat", "form-fitting black bodysuit with orange geometric accents",
+      "cropped mesh top and high-waisted trousers", "maximalist fashion with symbolic accessories",
+      "Versace-inspired bold patterned outfit", "gender-crossing avant-garde ensemble",
+      "layered accessories with symbolic motifs", "structured Dior-influenced silhouette",
+      "crop top with elaborate harness accessories", "form-fitting suit with exaggerated shoulders",
+      "flowing coat with dramatic collar", "bodysuit with geometric cutouts",
+      "military-inspired jacket with ornate details", "mesh and leather combination",
+      "high-fashion editorial costume", "Moschino humor-meets-beauty aesthetic",
+      "luxury Italian fashion with personal symbols", "outfit reflecting inner nature and abilities"
+    ],
+
+    "style": [
+      "dramatic fashion illustration style", "high-impact digital art",
+      "cinematic character portrait", "theatrical staging style",
+      "bold graphic style with clean outlines", "Renaissance anatomical definition",
+      "fashion editorial drama", "haute couture sensibility",
+      "maximum dramatic impact illustration", "dynamic ensemble illustration",
+      "clean graphic linework", "painterly digital illustration",
+      "manga-influenced dramatic art", "fashion photography composition style",
+      "Baroque drama meets modern design", "editorial illustration approach",
+      "fine art meets fashion photography"
+    ],
+
+    "mood": [
+      "menacing presence", "heavy atmospheric tension", "villain energy",
+      "dramatic tension", "heroic resolve", "quiet intensity",
+      "cold fury", "imposing scale", "predatory confidence",
+      "theatrical darkness", "psychological unease", "commanding authority",
+      "mysterious allure", "dangerous elegance", "calculated menace",
+      "defiant energy", "brooding power", "electric anticipation"
+    ],
+
+    "details": [
+      "high saturation throughout", "sharp lineart with bold colors",
+      "clean outlines with saturated non-naturalistic colors",
+      "intricate costume details visible", "Renaissance muscle definition",
+      "fabric textures rendered dramatically", "metallic accessories catching light",
+      "hair flowing with dramatic movement", "eyes rendered with intense detail",
+      "skin with stylized shading", "clothing folds emphasized dramatically",
+      "symbolic motifs integrated throughout", "highly detailed accessories",
+      "crisp graphic rendering", "fashion-forward attention to costume detail"
+    ]
+  }
+}
