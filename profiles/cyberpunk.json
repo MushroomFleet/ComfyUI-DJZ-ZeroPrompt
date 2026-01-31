@@ -1,0 +1,80 @@
+{
+  "name": "Cyberpunk",
+  "description": "Focused cyberpunk/sci-fi vocabulary for neon-soaked dystopian imagery",
+  "version": "1.0.0",
+  
+  "templates": [
+    "{subject} {action} {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{camera} of {subject} {action} {environment}, {style}, {lighting}, {details}, {mood}",
+    "{style} {subject} in {environment}, {lighting}, {mood} mood, {details}",
+    "{mood} scene of {subject} {action} {environment}, {style}, {lighting}, {details}",
+    "cinematic {camera}, {subject} {action} {environment}, {style}, {lighting}, {mood}"
+  ],
+  
+  "pools": {
+    "subject": [
+      "a cyborg", "an android", "a hacker", "a street samurai", "a netrunner",
+      "a corporate soldier", "a bounty hunter", "a rogue AI", "a synth",
+      "a mercenary", "a fixer", "a smuggler", "a chrome-armed warrior",
+      "a neural hacker", "a biohacked human", "a synthetic human",
+      "a megacorp executive", "a street vendor", "a neon preacher",
+      "a cybernetic ninja", "a drone pilot", "a data thief",
+      "a augmented detective", "a rebel leader", "a tech priest"
+    ],
+    
+    "action": [
+      "standing in", "running through", "hacking into", "surveilling",
+      "infiltrating", "escaping from", "fighting in", "hiding in",
+      "jacking into", "downloading data in", "stalking through",
+      "fleeing through", "pursuing targets in", "making deals in",
+      "scavenging in", "patrolling", "ambushing in"
+    ],
+    
+    "environment": [
+      "a neon-lit alley", "a cyberpunk city", "a futuristic metropolis",
+      "a rain-soaked street", "a megacorp tower", "a black market",
+      "a underground club", "a hacker den", "a chop shop",
+      "a corporate plaza", "a slum district", "a rooftop garden",
+      "a virtual reality world", "inside a computer mainframe",
+      "a abandoned factory", "a neon arcade", "a synth bar",
+      "a augmentation clinic", "a data center", "a skybridge",
+      "a flooded lower city", "a holographic plaza", "a smuggler's hideout"
+    ],
+    
+    "style": [
+      "cyberpunk aesthetic", "blade runner style", "ghost in the shell style",
+      "cinematic", "hyperrealistic", "neon noir", "tech noir",
+      "akira style", "concept art", "digital painting", "3D render",
+      "photorealistic", "dystopian realism", "neo-tokyo style",
+      "synthwave", "vaporwave aesthetic", "gritty realism"
+    ],
+    
+    "lighting": [
+      "neon lighting", "holographic light", "rain-refracted neon",
+      "harsh fluorescent", "bioluminescent glow", "LED strips",
+      "volumetric fog", "dramatic rim lighting", "low key lighting",
+      "high contrast", "glitching light", "pulsing neon",
+      "cool blue lighting", "magenta and cyan neon", "foggy atmosphere"
+    ],
+    
+    "camera": [
+      "close-up portrait", "medium shot", "wide shot", "establishing shot",
+      "low angle shot", "dutch angle", "over the shoulder",
+      "first person view", "shallow depth of field", "bokeh background",
+      "long exposure light trails", "motion blur", "surveillance camera angle"
+    ],
+    
+    "details": [
+      "highly detailed", "intricate details", "8k", "ultra HD",
+      "ray tracing", "realistic textures", "sharp focus",
+      "trending on artstation", "cinematic quality", "film grain",
+      "chromatic aberration", "lens flare", "rain droplets on lens"
+    ],
+    
+    "mood": [
+      "ominous", "tense", "mysterious", "dystopian", "melancholic",
+      "intense", "dangerous", "lonely", "alienating", "chaotic",
+      "oppressive", "paranoid", "desperate", "rebellious", "noir"
+    ]
+  }
+}

@@ -272,13 +272,37 @@ ComfyUI-DJZ-ZeroPrompt/
 ├── DJZ_ZeroPrompt_V1.py     # V1 node (built-in vocabulary)
 ├── DJZ_ZeroPrompt_V2.py     # V2 node (JSON profiles)
 ├── profiles/                # Vocabulary profiles
-│   ├── default.json         # Full vocabulary
-│   ├── cyberpunk.json       # Cyberpunk/sci-fi focused
-│   └── fantasy.json         # High fantasy focused
+│   ├── default.json         # Full vocabulary (188T combinations)
+│   ├── cyberpunk.json       # Cyberpunk/sci-fi focused (31B)
+│   └── fantasy.json         # High fantasy focused (55B)
+├── skills/                  # Claude Code skills
+│   └── zeroprompt-profile-builder/
+│       └── SKILL.md         # Prompt-to-profile conversion skill
 ├── requirements.txt         # Python dependencies
 ├── README.md                # This file
 └── LICENSE                  # MIT License
 ```
+
+## 🧠 Claude Code Skill
+
+The `/skills/zeroprompt-profile-builder/` folder contains a Claude Code skill for converting your existing prompt text files into ZeroPrompt profiles.
+
+### Installation
+
+Copy the skill to your Claude Code skills directory:
+```bash
+cp -r skills/zeroprompt-profile-builder ~/.claude/skills/
+```
+
+### Usage
+
+1. Upload your `.txt` prompt file (one prompt per line)
+2. Ask Claude:
+   - "Convert this prompt list into a ZeroPrompt profile"
+   - "Create a JSON profile from these prompts"
+   - "Reverse engineer this into vocabulary pools"
+
+The skill will analyze your prompts, extract vocabulary into semantic pools, synthesize templates, and generate a ready-to-use JSON profile.
 
 ## 🤝 Contributing
 

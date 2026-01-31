@@ -1,0 +1,183 @@
+{
+  "name": "3MP1R3 Imperial Guard",
+  "description": "Generates dystopian imperial soldiers in red uniforms blending Victorian/historical military aesthetics with sci-fi and post-apocalyptic elements. Based on 100-prompt corpus analysis.",
+  "version": "2.0.0",
+  "templates": [
+    "3mp1r3 style, illustration of {unit_type}, {scene_type}, . The image depicts {composition} in a {setting_type} setting. {subject_description}. The background features {background_element} under {sky_condition}, {atmosphere_clause}.",
+    "3mp1r3 style, illustration of {unit_type}, {scene_type}, . The image depicts {composition} standing on {terrain}. {armor_description}. {weapon_clause}. The {setting_type} environment shows {background_element}, creating {mood}.",
+    "3mp1r3 style, illustration of {unit_type}, . The image depicts {composition} in a {setting_type} setting with {background_element}. {subject_description}. {armor_description}. The overall atmosphere is {mood}.",
+    "3mp1r3 style, illustration of {unit_type}, {scene_type}, . {composition} {action_pose} on {terrain}, {armor_description}. {weapon_clause}. The scene is set against {background_element} under {sky_condition}, {atmosphere_clause}.",
+    "3mp1r3 style, illustration of {unit_type}, . The image depicts a {setting_type} scene with {composition} {action_pose}. {subject_description}. The background shows {background_element}, with {sky_condition} {atmosphere_clause}.",
+    "3mp1r3 style, illustration of {unit_type}, {scene_type}, . {composition} {armor_description}, equipped with {weapon_type}. The {setting_type} landscape features {background_element} and {terrain}, creating {mood}.",
+    "3mp1r3 style, illustration of {unit_type}, . In this {setting_type} scene, {composition} stands {action_pose}. {subject_description}. {weapon_clause}. The environment is {mood}, with {background_element} visible in the distance."
+  ],
+  "pools": {
+    "unit_type": [
+      "soldier",
+      "rifleman",
+      "scout"
+    ],
+    "scene_type": [
+      "battle scene",
+      "crusade scene",
+      "air drop scene",
+      "parade scenes",
+      "dual wielding scenes",
+      "empire hangar scene",
+      "patrol scene",
+      "assault scene",
+      "occupation scene",
+      "retreat scene"
+    ],
+    "composition": [
+      "a lone figure",
+      "a solitary soldier",
+      "two figures",
+      "three characters",
+      "four soldiers",
+      "a group of soldiers",
+      "a squad of armored figures",
+      "several heavily armored figures",
+      "a formation of soldiers",
+      "a large imposing figure with smaller figures",
+      "a central figure surrounded by others",
+      "a patrol of uniformed guards"
+    ],
+    "subject_description": [
+      "The central figure is dressed in a red coat with a large helmet-like headpiece",
+      "The characters are wearing red and black armor with visors",
+      "The soldiers are dressed in elaborate red uniforms with tall hats",
+      "Each figure is adorned in red and blue armor with intricate mechanical parts",
+      "The figures wear red coats and black hats with white accents",
+      "They are clad in heavily armored exosuits with red and black color schemes",
+      "The soldiers wear uniforms resembling Victorian military attire",
+      "The character is dressed in a red uniform with a helmet resembling a computer monitor",
+      "They are equipped with steampunk-inspired gear and cylindrical helmets",
+      "The figures are adorned in ceremonial red uniforms with ornate details"
+    ],
+    "armor_description": [
+      "wearing red and black armor with large cylindrical helmets",
+      "clad in red coats with white chest armor and tall pointed hats",
+      "dressed in elaborate Victorian-style costumes with mechanical elements",
+      "equipped with heavily armored exosuits featuring red and blue accents",
+      "wearing red uniforms with helmets featuring cross emblems",
+      "adorned in ornate red armor with intricate gold details",
+      "clad in steampunk-inspired red armor with gears and mechanical parts",
+      "wearing red and white armor with large visors and glowing elements",
+      "dressed in battle-worn red armor with weathered textures",
+      "equipped with red ceremonial armor and tall fur-trimmed hats"
+    ],
+    "weapon_type": [
+      "large rifles",
+      "intricate weapons resembling machine guns",
+      "ornate crossbows",
+      "sniper rifles with scopes",
+      "futuristic pulse weapons",
+      "large guns attached to mechanical backpacks",
+      "dual-wielded pistols",
+      "ceremonial swords and shields",
+      "rocket launchers",
+      "heavy machine guns"
+    ],
+    "weapon_clause": [
+      "They are holding large rifles with intricate designs",
+      "The figures are equipped with various weapons and gear",
+      "Each soldier carries a large weapon with mechanical components",
+      "They are armed with ornate rifles and appear ready for combat",
+      "The characters wield futuristic weapons with glowing elements",
+      "They carry shield-like weapons attached to their backs",
+      "Each figure is holding dual weapons in each hand",
+      "The soldiers are equipped with ranged weapons and ammunition"
+    ],
+    "action_pose": [
+      "marching in formation",
+      "standing in a state of readiness",
+      "walking through the desolate landscape",
+      "aiming weapons forward",
+      "flying through the air",
+      "running through a chaotic battlefield",
+      "facing away from the viewer",
+      "engaged in combat",
+      "standing on a raised platform",
+      "moving forward with purpose",
+      "surveying the area",
+      "in mid-air with weapons drawn"
+    ],
+    "terrain": [
+      "a rocky outcrop",
+      "a snowy landscape",
+      "a wet reflective surface",
+      "a barren industrial platform",
+      "rubble and debris",
+      "a grassy hillside",
+      "parallel tracks extending into the distance",
+      "a ship's deck",
+      "a desolate beach",
+      "a snow-covered dock",
+      "crumbling urban streets",
+      "an elevated platform"
+    ],
+    "setting_type": [
+      "dystopian",
+      "post-apocalyptic",
+      "futuristic",
+      "industrial",
+      "urban",
+      "war-torn",
+      "desolate",
+      "bleak",
+      "sci-fi",
+      "surreal"
+    ],
+    "background_element": [
+      "tall dilapidated buildings with exposed beams",
+      "towering skyscrapers under smog-filled skies",
+      "large industrial structures and cranes",
+      "massive red ships or spacecrafts",
+      "a cityscape with damaged or destroyed buildings",
+      "futuristic architecture with mechanical parts",
+      "ancient castle-like structures",
+      "shipping containers and industrial machinery",
+      "flying vehicles scattered throughout the sky",
+      "a ruined cathedral or church",
+      "towering structures with peeling paint",
+      "large weathered containers and ships"
+    ],
+    "sky_condition": [
+      "an overcast sky",
+      "a gray cloudy sky",
+      "a clear sky",
+      "a hazy industrial sky",
+      "a dark ominous sky",
+      "a blue sky with scattered clouds",
+      "a foggy atmosphere",
+      "a smoky haze",
+      "twilight skies",
+      "a stormy threatening sky"
+    ],
+    "atmosphere_clause": [
+      "creating a sense of desolation and survival",
+      "adding to the apocalyptic atmosphere",
+      "giving the scene an otherworldly quality",
+      "emphasizing the bleakness of the setting",
+      "with muted colors dominating the palette",
+      "suggesting a world ravaged by conflict",
+      "creating an intense and action-packed atmosphere",
+      "adding to the sense of tension and urgency",
+      "with a surreal dreamlike quality",
+      "evoking themes of order and discipline"
+    ],
+    "mood": [
+      "one of desolation and abandonment",
+      "bleak and oppressive",
+      "intense and action-packed",
+      "dark and ominous",
+      "tense and foreboding",
+      "one of militaristic discipline",
+      "gritty and dystopian",
+      "surreal and otherworldly",
+      "chaotic and conflict-filled",
+      "somber and melancholic"
+    ]
+  }
+}

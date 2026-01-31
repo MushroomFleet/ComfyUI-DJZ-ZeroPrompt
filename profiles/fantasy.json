@@ -1,0 +1,81 @@
+{
+  "name": "Fantasy",
+  "description": "High fantasy and medieval vocabulary for epic magical imagery",
+  "version": "1.0.0",
+  
+  "templates": [
+    "{subject} {action} {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{camera} of {subject} {action} {environment}, {style}, {lighting}, {details}",
+    "{style} {subject} in {environment}, {lighting}, {mood} mood, {details}",
+    "epic {mood} scene of {subject} {action} {environment}, {style}, {lighting}, {details}",
+    "{style} depicting {subject}, {environment} setting, {lighting}, {camera}, {mood}",
+    "majestic {subject} {action} {environment}, {style}, {lighting}, {details}"
+  ],
+  
+  "pools": {
+    "subject": [
+      "a knight in shining armor", "a wise wizard", "a dark sorceress", "an elven queen",
+      "a dwarven king", "a young hero", "a battle-worn paladin", "a mysterious ranger",
+      "a fierce barbarian", "a cunning rogue", "a holy cleric", "a wild druid",
+      "a noble prince", "a warrior princess", "an ancient dragon", "a phoenix rising",
+      "a majestic griffin", "a ethereal unicorn", "a fearsome werewolf", "an elegant vampire",
+      "a celestial angel", "a fallen angel", "a bound demon", "a forest spirit",
+      "a water nymph", "an earth elemental", "a fire elemental", "a storm giant",
+      "a treant guardian", "a wise centaur", "a mysterious sphinx", "a noble pegasus"
+    ],
+    
+    "action": [
+      "standing guard in", "riding through", "battling evil in", "casting a spell in",
+      "defending the realm in", "seeking wisdom in", "training warriors in",
+      "forging legendary weapons in", "communing with spirits in", "leading an army through",
+      "discovering ancient secrets in", "breaking a curse in", "protecting the innocent in",
+      "ascending the throne in", "fulfilling a prophecy in", "making a last stand in",
+      "embarking on a quest in", "returning victorious to"
+    ],
+    
+    "environment": [
+      "an enchanted forest", "a mystical glade", "ancient ruins", "a dragon's lair",
+      "a towering castle", "a medieval throne room", "a wizard's tower",
+      "a sacred temple", "a hidden elven city", "a dwarven mountain hall",
+      "a battlefield at dawn", "a mystical lake", "the edge of a cliff",
+      "a fairy ring", "an ancient library", "a cursed swamp",
+      "a floating citadel", "the realm between worlds", "a celestial palace",
+      "a volcanic forge", "an ice fortress", "a garden of statues",
+      "a crystal cavern", "the world tree", "a moonlit clearing"
+    ],
+    
+    "style": [
+      "oil painting", "renaissance masterpiece", "pre-raphaelite style", "romanticism",
+      "concept art", "epic fantasy art", "book cover illustration", "classical painting",
+      "digital painting", "fantasy realism", "dark fantasy style", "high fantasy art",
+      "studio ghibli style", "lord of the rings style", "game of thrones style",
+      "frazetta style", "boris vallejo style", "medieval manuscript illumination"
+    ],
+    
+    "lighting": [
+      "golden hour lighting", "ethereal glow", "magical light", "divine rays",
+      "moonlight", "firelight", "candlelight", "torchlight",
+      "dramatic god rays", "mystical fog", "aurora borealis",
+      "sunset light", "dawn light", "starlight", "bioluminescent glow"
+    ],
+    
+    "camera": [
+      "wide establishing shot", "epic wide shot", "medium shot", "portrait shot",
+      "low angle heroic shot", "high angle view", "dramatic close-up",
+      "bird's eye view", "three-quarter view", "profile silhouette"
+    ],
+    
+    "details": [
+      "highly detailed", "intricate details", "ornate details", "masterfully crafted",
+      "8k resolution", "museum quality", "award winning", "masterpiece",
+      "rich textures", "gilded accents", "jeweled embellishments", "fine craftsmanship"
+    ],
+    
+    "mood": [
+      "epic", "majestic", "triumphant", "heroic", "noble",
+      "mysterious", "ancient", "magical", "ethereal", "divine",
+      "ominous", "foreboding", "dark", "tragic", "melancholic",
+      "serene", "peaceful", "hopeful", "romantic", "legendary"
+    ]
+  }
+}

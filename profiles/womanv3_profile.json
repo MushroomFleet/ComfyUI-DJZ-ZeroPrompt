@@ -1,0 +1,289 @@
+{
+  "name": "Woman V3 - Sci-Fi Fashion",
+  "description": "Procedural generator for sci-fi/cyberpunk women in urban and futuristic settings. Derived from 118-prompt corpus featuring fashion-forward women with robots, cityscapes, and action elements.",
+  "version": "1.0.0",
+  
+  "templates": [
+    "woman style, {subject} {action} {environment}. {scene_detail}. {atmosphere}., {gaze}, {hair}, {clothing_tags}, {accessory_tags}, {setting_tags}, {style_tags}",
+    "woman style, {subject} {pose} {environment}, {weapon_detail}. {background_element}., {gaze}, {hair}, {body_tags}, {clothing_tags}, {weapon_tags}, {setting_tags}, {style_tags}",
+    "woman style, {subject} in {outfit}, {action} {environment}. {sci_fi_element} {background_element}., {gaze}, {hair}, {clothing_tags}, {accessory_tags}, {sci_fi_tags}, {style_tags}",
+    "woman style, {subject} {pose} {location}. She wears {outfit} and {accessory}. {background_element}., {gaze}, {hair}, {clothing_tags}, {accessory_tags}, {setting_tags}, {style_tags}",
+    "woman style, {subject} {action} {environment}, {weapon_detail}. {sci_fi_element}. {atmosphere}., {gaze}, {hair}, {body_tags}, {weapon_tags}, {sci_fi_tags}, {style_tags}",
+    "woman style, {subject} with {hair_desc} and {outfit}, {action} {location}. {background_element}., {gaze}, {hair}, {clothing_tags}, {accessory_tags}, {setting_tags}, {style_tags}"
+  ],
+  
+  "pools": {
+    "subject": [
+      "A young woman",
+      "A woman",
+      "A confident woman",
+      "A striking woman",
+      "A stylish woman",
+      "A mysterious woman",
+      "A fierce woman",
+      "A cybernetic woman",
+      "A fashionable woman",
+      "A battle-ready woman"
+    ],
+    
+    "hair_desc": [
+      "long black hair",
+      "long blonde hair",
+      "long brown hair",
+      "long dark hair",
+      "long red hair",
+      "short black hair",
+      "hair styled in a ponytail",
+      "hair styled in loose waves",
+      "flowing dark hair",
+      "vibrant red hair"
+    ],
+    
+    "action": [
+      "stands confidently in front of",
+      "is seated on",
+      "stands in",
+      "walks through",
+      "gazes at",
+      "poses before",
+      "strides through",
+      "surveys",
+      "confronts",
+      "emerges from"
+    ],
+    
+    "pose": [
+      "stands confidently",
+      "sits elegantly",
+      "leans against a railing",
+      "holds a weapon",
+      "with hands on hips",
+      "with hand raised",
+      "in a combat stance",
+      "walking towards the camera",
+      "gazing upwards",
+      "looking directly at the viewer"
+    ],
+    
+    "environment": [
+      "a futuristic cityscape",
+      "a neon-lit urban street",
+      "a cyberpunk metropolis",
+      "a rain-soaked alley",
+      "a towering megacity",
+      "a dystopian plaza",
+      "a high-tech industrial zone",
+      "a colorful mural wall",
+      "an ornate throne room",
+      "a rooftop overlooking the city",
+      "a balcony with a metal railing",
+      "a field of tall grass",
+      "a train track",
+      "an industrial corridor"
+    ],
+    
+    "location": [
+      "in a futuristic cityscape",
+      "on a balcony",
+      "in front of a vibrant mural",
+      "on an ornate chair",
+      "on a city street",
+      "in a high-tech facility",
+      "on a rooftop",
+      "in an industrial hallway",
+      "before a colorful backdrop",
+      "in a neon-lit district"
+    ],
+    
+    "outfit": [
+      "a black shirt and blue jeans",
+      "a blue dress",
+      "a black leather jacket",
+      "a red bikini",
+      "a plaid shirt",
+      "a gray shirt and black pants",
+      "a black jacket and white shirt",
+      "a purple shirt",
+      "a trench coat",
+      "a crop top and jeans",
+      "casual streetwear",
+      "tactical combat gear",
+      "an intricate headpiece and scarf",
+      "a dress with a black belt"
+    ],
+    
+    "accessory": [
+      "large earrings",
+      "a red necklace",
+      "orange sunglasses",
+      "headphones",
+      "a black belt",
+      "a choker",
+      "hoop earrings",
+      "a bracelet",
+      "tinted eyewear",
+      "a baseball cap",
+      "jewelry",
+      "a watch"
+    ],
+    
+    "weapon_detail": [
+      "holding a sword in her hand",
+      "holding a gun",
+      "wielding a large knife",
+      "armed with dual pistols",
+      "gripping a black sword",
+      "carrying a rifle",
+      "with a weapon at the ready",
+      "holding a glowing blade"
+    ],
+    
+    "sci_fi_element": [
+      "A large colorful robot stands nearby",
+      "Futuristic robots patrol the background",
+      "A massive mech looms behind her",
+      "Spacecraft hover in the sky",
+      "An alien creature with headphones watches",
+      "Chrome androids flank her position",
+      "A giant octopus-like machine adorns the wall",
+      "Holographic displays shimmer around her",
+      "Armed soldiers in power armor stand guard",
+      "A futuristic ship dominates the horizon"
+    ],
+    
+    "background_element": [
+      "The cityscape glows with blue and orange hues",
+      "White clouds drift across a blue sky",
+      "Explosions and fire fill the background",
+      "Colorful planets and stars surround the scene",
+      "Smoke rises from distant buildings",
+      "The sky is filled with pink and blue clouds",
+      "Abstract graffiti covers the wall behind her",
+      "Towering structures reach toward the sky",
+      "Rain reflects the neon lights",
+      "A large moon hangs in the background"
+    ],
+    
+    "scene_detail": [
+      "She wears a confident expression",
+      "Her attire is intricate and detailed",
+      "The vibrant colors create a striking contrast",
+      "Her gaze is directed at the camera",
+      "The scene has a surreal and dreamy feel",
+      "The image captures an intense moment",
+      "Her position suggests a scene from a video game",
+      "The composition creates depth and perspective"
+    ],
+    
+    "atmosphere": [
+      "The image has a futuristic, cinematic quality",
+      "A sense of intrigue and wonder pervades the scene",
+      "The setting evokes a dystopian future",
+      "Vibrant neon colors dominate the palette",
+      "The mood is tense and dramatic",
+      "A cyberpunk aesthetic permeates the composition",
+      "The scene feels both dangerous and alluring",
+      "Retro-futuristic elements blend with modern style"
+    ],
+    
+    "gaze": [
+      "solo",
+      "looking at viewer",
+      "solo focus",
+      "from behind",
+      "from side",
+      "profile",
+      "facing away",
+      "cowboy shot"
+    ],
+    
+    "hair": [
+      "long hair",
+      "short hair",
+      "blonde hair",
+      "black hair",
+      "brown hair",
+      "ponytail",
+      "blunt bangs",
+      "hair ornament"
+    ],
+    
+    "body_tags": [
+      "breasts, medium breasts",
+      "breasts, large breasts",
+      "navel, cleavage",
+      "navel, midriff",
+      "bare shoulders",
+      "cleavage, medium breasts",
+      "midriff, navel"
+    ],
+    
+    "clothing_tags": [
+      "shirt, black shirt, short sleeves",
+      "dress, blue dress",
+      "jacket, black jacket",
+      "pants, jeans, denim",
+      "shirt, white shirt, long sleeves",
+      "bikini, swimsuit",
+      "crop top, pants, belt",
+      "coat, trench coat",
+      "shirt, plaid shirt",
+      "jacket, open jacket, open clothes",
+      "uniform, military"
+    ],
+    
+    "accessory_tags": [
+      "jewelry, earrings, necklace",
+      "jewelry, bracelet, belt",
+      "choker, black choker, necklace",
+      "headphones, sunglasses",
+      "belt, torn clothes, torn jeans",
+      "hat, baseball cap, backwards hat",
+      "jewelry, hoop earrings",
+      "gloves, black gloves",
+      "makeup, lipstick, red lips",
+      "nail polish, red nails"
+    ],
+    
+    "weapon_tags": [
+      "weapon, sword, holding weapon, holding sword",
+      "weapon, gun, holding weapon, holding gun",
+      "weapon, knife, holding knife",
+      "weapon, rifle, holding weapon",
+      "weapon, handgun, holster",
+      "sword, holding weapon",
+      "gun, holding gun, handgun"
+    ],
+    
+    "setting_tags": [
+      "outdoors, sky, cloud, day",
+      "outdoors, sky, blue sky, cloud",
+      "simple background",
+      "outdoors, cloudy sky",
+      "sky, cloud, blue sky",
+      "outdoors, field",
+      "outdoors, water"
+    ],
+    
+    "sci_fi_tags": [
+      "robot, science fiction",
+      "robot, mecha, science fiction",
+      "science fiction, cyberpunk",
+      "science fiction, spacecraft",
+      "robot, science fiction, realistic",
+      "science fiction, power armor",
+      "aircraft, spacecraft, airship"
+    ],
+    
+    "style_tags": [
+      "realistic",
+      "science fiction, realistic",
+      "realistic, red lips",
+      "science fiction",
+      "cyberpunk",
+      "realistic, hoop earrings",
+      "science fiction, smoke",
+      "horror \\(theme\\)"
+    ]
+  }
+}
