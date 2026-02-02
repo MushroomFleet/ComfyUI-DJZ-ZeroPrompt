@@ -1,0 +1,453 @@
+{
+  "name": "M8T Mecha Anime",
+  "description": "Late-1990s anime cel animation style prompts for bipedal mobile suits, military pilots, and wartime scenarios inspired by realistic mecha anime aesthetics",
+  "version": "1.0.0",
+  "templates": [
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {mobile_suit_desc} {mobile_suit_color} bipedal mobile suit with {mobile_suit_head} and {mobile_suit_armor}, {mobile_suit_pose}, {mobile_suit_weapon}. {environment_type} {environment_detail}, {lighting} {atmosphere}. {weathering_detail}; {mechanical_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {character_intro} with {character_hair}, {character_expression}, wearing {character_attire}. {cockpit_interior}, {cockpit_lighting}. {character_detail}; {equipment_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {mobile_suit_desc} {mobile_suit_color} bipedal mobile suit {mobile_suit_pose}, {mobile_suit_weapon}. {urban_environment}, {urban_detail}, {lighting} {atmosphere}. {combat_detail}; {weathering_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {dual_character_intro}, {dual_character_detail}. {cockpit_interior}, {cockpit_lighting}. {uniform_detail}; {interaction_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {mobile_suit_desc} {mobile_suit_color} bipedal mobile suit {mobile_suit_pose}. {jungle_environment}, {natural_detail}, {lighting}. {weathering_detail}; {terrain_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {explosion_desc} {explosion_detail}. {urban_environment}, {destruction_detail}, {lighting} {atmosphere}. {debris_detail}; {impact_detail}. {render_style}, {palette}.",
+    "M8T style anime, {cockpit_pov}, {pov_framing}. {character_intro} with {character_hair}, {character_expression}, wearing {character_attire}, {pilot_action}. {cockpit_interior}, {viewport_view}. {instrument_detail}; {character_detail}. {render_style}, {palette}.",
+    "M8T style anime, {shot_type} {camera_angle}, {framing_emphasis}. {mobile_suit_desc} {mobile_suit_color} bipedal mobile suit {engagement_pose}, {mobile_suit_weapon}. Opposite it, {enemy_mobile_suit_color} mobile suit with {mobile_suit_head} {enemy_action}. {battlefield_environment}, {combat_atmosphere}. {combat_detail}; {weapon_effect}. {render_style}, {palette}."
+  ],
+  "pools": {
+    "shot_type": [
+      "Close-up shot",
+      "Close-up portrait",
+      "Close-up interior shot",
+      "Close-up medium shot",
+      "Close-up framing",
+      "Extreme close-up",
+      "Wide-angle shot",
+      "Wide-angle aerial view",
+      "Wide establishing shot",
+      "Wide-angle urban vista",
+      "Dynamic action shot",
+      "Dynamic wide-angle shot",
+      "Dynamic low-angle shot",
+      "Dynamic full-body shot",
+      "Dynamic three-quarter rear view",
+      "Full-body dynamic shot",
+      "Tight interior shot",
+      "Interior medium close-up",
+      "Close interior shot",
+      "Three-quarter rear view",
+      "Frontal close-up view"
+    ],
+    "camera_angle": [
+      "from a low angle",
+      "from a slight low angle",
+      "from a slight side angle",
+      "from a low three-quarter angle",
+      "from a low perspective",
+      "from ground level",
+      "frontal view",
+      "eye-level perspective",
+      "eye-level framing",
+      "viewed from a slight side angle",
+      "angled slightly upward",
+      "with upward perspective toward the cloudy sky",
+      "ground-level perspective"
+    ],
+    "framing_emphasis": [
+      "emphasizing height and motion",
+      "emphasizing height and power",
+      "emphasizing height and scale",
+      "emphasizing height and dominance",
+      "emphasizing height and tension",
+      "emphasizing imposing scale and symmetry",
+      "emphasizing tension and immediacy",
+      "emphasizing tension through dynamic angles",
+      "emphasizing the subject's face and upper torso",
+      "emphasizing facial expression and upper torso",
+      "emphasizing upper bodies and facial expressions",
+      "emphasizing the confined cockpit space",
+      "emphasizing motion and scale",
+      "emphasizing forward momentum",
+      "emphasizing scale and destruction",
+      "centered on the upper torso and head",
+      "centered on an open cockpit hatch",
+      "focusing on the pilot's face and upper body",
+      "focusing on the central figure"
+    ],
+    "mobile_suit_desc": [
+      "A tall",
+      "A massive",
+      "A sleek",
+      "A heavily armored",
+      "A streamlined"
+    ],
+    "mobile_suit_color": [
+      "white",
+      "deep blue",
+      "blue",
+      "black",
+      "red",
+      "gray-blue"
+    ],
+    "enemy_mobile_suit_color": [
+      "a blue",
+      "a darker blue",
+      "a black",
+      "a red"
+    ],
+    "mobile_suit_head": [
+      "a visor-style head",
+      "a rounded visor head",
+      "a single glowing red sensor eye",
+      "a single glowing sensor eye",
+      "a helmet-style head adorned with curved horn projections",
+      "twin antennae",
+      "a prominent single red glowing sensor eye",
+      "a monoeye sensor glowing red",
+      "angular armor and a single sensor eye"
+    ],
+    "mobile_suit_armor": [
+      "bulky ground combat armor",
+      "sturdy ground-type build",
+      "segmented armor plating",
+      "reinforced shoulder pauldrons",
+      "articulated limbs",
+      "heavy-duty construction",
+      "angular plating with visible vents",
+      "streamlined armor"
+    ],
+    "mobile_suit_pose": [
+      "stands poised in a firing stance",
+      "stands poised on one foot",
+      "in a grounded combat stance",
+      "in a crouched attack pose",
+      "kneels in a firing stance",
+      "strides forward confidently",
+      "lunges forward aggressively",
+      "propels forward using backpack-mounted thrusters",
+      "gripping a control in both hands",
+      "stands vigilant"
+    ],
+    "engagement_pose": [
+      "lunges forward",
+      "fires a pink energy beam from its rifle",
+      "in mid-stride across an elevated platform",
+      "aims a rifle-like weapon"
+    ],
+    "enemy_action": [
+      "counters with an extended heat rod weapon",
+      "advances with claw-like hand gripping tightly",
+      "maneuvers toward an unseen target",
+      "is partially visible, turning or advancing from behind a corner"
+    ],
+    "mobile_suit_weapon": [
+      "gripping a large beam rifle in both hands",
+      "gripping a bulky rifle with both hands",
+      "right arm extended holding a rifle-like weapon emitting a bright blue energy beam",
+      "gripping a long curved blade raised high",
+      "gripping a long melee weapon",
+      "holding a large rectangular shield",
+      "aiming a beam rifle with the other",
+      "its armored arm extends forward gripping a large multi-barreled rotary cannon",
+      "firing bursts of fire and smoke from spinning barrels",
+      "heat blade glowing faintly with heat"
+    ],
+    "character_intro": [
+      "A young man",
+      "A man",
+      "A rugged man",
+      "A stern-faced young man",
+      "A muscular young man",
+      "A young woman",
+      "A figure"
+    ],
+    "dual_character_intro": [
+      "A young man with tousled reddish-brown hair, wearing a green military pilot uniform and headset, turns his head with a startled expression. Behind him, a woman with long light blonde hair in a similar headset gazes intently",
+      "A stern-faced young man with long blonde hair tied back by a dark headband glares intently. Partially obscured behind him, a young woman with short reddish-brown hair peeks out with wide surprised eyes",
+      "A young man with short blonde hair and a focused expression wears a headset. Beside him, another young man with tousled red hair smirks confidently",
+      "A young man with tousled reddish-brown hair holds a radio handset to his ear. Behind him, a woman with long blonde hair tied back wears a bulky headset"
+    ],
+    "dual_character_detail": [
+      "framed tightly on two figures in profile, emphasizing tension through dynamic angles",
+      "profiles of two figures from the side, emphasizing intimacy in a confined space",
+      "focusing on two figures at a console with multiple screens visible",
+      "seated side by side, one in profile view, the other angled toward the viewer"
+    ],
+    "character_hair": [
+      "short dark hair",
+      "short dark hair and round glasses",
+      "short brown hair",
+      "short reddish-brown hair",
+      "tousled reddish-brown hair",
+      "long blonde hair tied in a ponytail",
+      "long blonde hair tied back by a dark headband",
+      "shoulder-length blonde hair tied back with a headband",
+      "spiky blonde hair tied back by a dark headband",
+      "spiky dark hair",
+      "short red hair visible under a green helmet",
+      "long red hair spilling out from under a black helmet",
+      "tousled light brown hair"
+    ],
+    "character_expression": [
+      "a determined expression",
+      "a focused, determined expression",
+      "a focused, intense expression",
+      "an intense, focused expression",
+      "a stern, focused expression",
+      "a startled expression, mouth open in surprise",
+      "wide eyes and gritted teeth",
+      "narrowed eyes and a slight frown",
+      "a confident smirk, eyes narrowed with intensity",
+      "eyes wide with determination",
+      "quiet shock and concern",
+      "a content expression, eyes half-closed"
+    ],
+    "character_attire": [
+      "a dark military uniform with high collar",
+      "a green military pilot uniform and headset",
+      "a form-fitting dark pilot suit and bulky headphones",
+      "a tight-fitting white pilot suit with orange accents",
+      "a green tactical vest over a pink short-sleeved shirt",
+      "a dark military jacket with a fur-trimmed collar",
+      "a high-collared military jacket in olive tones",
+      "an olive-drab pilot uniform with shoulder guards",
+      "a green helmet and orange flight suit with shoulder straps",
+      "a form-fitting military flight suit in shades of green and orange",
+      "a white short-sleeved shirt and pants",
+      "a simple white short-sleeved shirt",
+      "a form-fitting gray flight suit"
+    ],
+    "pilot_action": [
+      "grips control sticks tightly",
+      "seated rigidly in a control harness",
+      "climbs into the cockpit",
+      "leans forward intently",
+      "sits strapped into a pilot's seat",
+      "grips a black rectangular control panel tightly with both hands",
+      "gazes outward through a curved transparent viewport"
+    ],
+    "cockpit_interior": [
+      "Confined cockpit interior of a bipedal war machine",
+      "Dimly lit cockpit interior of a bipedal combat machine",
+      "Interior of a confined cockpit or command station",
+      "Interior of a dimly lit armored vehicle cockpit",
+      "Cramped cockpit interior of a military vehicle",
+      "Confined cockpit space with metallic panels and instrumentation",
+      "Compact spacecraft cockpit with glowing instrument panels"
+    ],
+    "cockpit_pov": [
+      "First-person cockpit perspective, viewed from behind the pilot's seat",
+      "First-person perspective from the pilot's seat",
+      "Close-up interior view from within a confined cockpit"
+    ],
+    "pov_framing": [
+      "emphasizing the expansive forward viewport",
+      "gazing forward through a wide cockpit canopy",
+      "centered on the forward instrument panel"
+    ],
+    "cockpit_lighting": [
+      "illuminated by the glow of blue instrument panels",
+      "surrounded by glowing green instrument displays",
+      "with greenish ambient glow from overhead panels",
+      "dim overhead lighting casting subtle shadows",
+      "faint overhead illumination and glowing instrument panels",
+      "soft greenish overhead lights from control panels"
+    ],
+    "viewport_view": [
+      "overlooking a sprawling urban landscape of towering cylindrical habitats",
+      "overlooking a clear blue sky and a rugged mountain range",
+      "a nighttime urban skyline under assault with multiple fires",
+      "rolling green hills under an overcast sky",
+      "a vast blue sky over rugged mist-shrouded hills"
+    ],
+    "environment_type": [
+      "Shadowy void-like background with subtle gradients of teal and black",
+      "Industrial maintenance area with metallic framework",
+      "Rugged elevated platform amid rocky terrain",
+      "Industrial rooftop surrounded by large cylindrical storage tanks",
+      "Pitch-black void background evoking night operation",
+      "Vast dark void suggestive of outer space"
+    ],
+    "urban_environment": [
+      "Urban battlefield amid ruined concrete streets",
+      "Dense cityscape at dusk or early evening",
+      "Densely packed cityscape with multi-story residential buildings",
+      "Nighttime urban ruins with crumbling concrete structures",
+      "Dense cityscape with towering modern buildings",
+      "Crumbling cityscape at dusk or under overcast skies",
+      "Industrial cityscape with towering concrete buildings"
+    ],
+    "jungle_environment": [
+      "Dense tropical jungle with overhanging green foliage",
+      "Lush tropical jungle setting with twisted vines",
+      "Dense tropical landscape with jagged boulders and overhanging trees",
+      "Rugged mountainous terrain under a clear blue sky"
+    ],
+    "battlefield_environment": [
+      "Urban battlefield amid ruined concrete streets and partially collapsed buildings",
+      "Flooded industrial zone with partially submerged buildings",
+      "Rugged terrain with scattered rocky outcrops"
+    ],
+    "environment_detail": [
+      "suggesting a dimly lit industrial space",
+      "soft diffused lighting suggesting an enclosed hangar",
+      "scattered rocky outcrops and distant low structures",
+      "crisscrossing metal pipes and distant haze",
+      "scattered clouds and intense backlighting"
+    ],
+    "urban_detail": [
+      "debris scattered underfoot",
+      "hazy atmosphere from dust and smoke",
+      "exposed rebar under an overcast sky",
+      "misty atmosphere suggesting recent rain or fog",
+      "wet pavement reflecting dim light"
+    ],
+    "natural_detail": [
+      "clear blue sky dotted with clouds",
+      "overcast skies and scattered industrial structures",
+      "weathered stone building with classical columns",
+      "ancient stepped stone ruins partially overgrown"
+    ],
+    "destruction_detail": [
+      "shattered bridge railings and flying concrete chunks",
+      "collapsing structures and scattered debris",
+      "multiple fires erupting and thick black smoke billowing",
+      "structural breaches with sparks and smoke venting"
+    ],
+    "lighting": [
+      "harsh highlights from an unseen light source",
+      "overcast daylight filtering through scattered clouds",
+      "intense backlighting creating dramatic silhouette",
+      "harsh sunlight creating a dramatic silhouette and lens flare",
+      "dim artificial lights from nearby facilities",
+      "bright daylight filtering through the canopy",
+      "soft diffused lighting",
+      "twilight sky with scattered clouds"
+    ],
+    "atmosphere": [
+      "cast elongated shadows across the armor",
+      "adding a sense of impending doom",
+      "suggesting a tense wartime maneuver",
+      "evoking a humid wartime ambush atmosphere",
+      "creating a tense operational atmosphere",
+      "with hazy overcast sky",
+      "heavy rain or water spray creating a misty haze"
+    ],
+    "weathering_detail": [
+      "Faint weathering and scuff marks evoke recent combat use",
+      "The mobile suit's surface shows minor scuffs and weathering",
+      "Armor shows subtle weathering with faint panel lines",
+      "The mobile suit's armor shows weathering and mud splatters",
+      "Visible wear on the mobile suit's joints and plating",
+      "Surface shows light weathering and scuff marks",
+      "Armor panels show practical weathering with visible rivets"
+    ],
+    "mechanical_detail": [
+      "coiled cable-like weapon draped over the right shoulder",
+      "visible seams and riveted panels on the chest and limbs",
+      "backpack unit features multiple thruster vents and missile pods",
+      "exhaust vents on the back",
+      "leg joints emit steam under strain",
+      "hydraulic pistons along the hatch edges",
+      "faint smoke trails from impacts"
+    ],
+    "combat_detail": [
+      "Sparks and electrical discharges arc from weapon impacts",
+      "Energy beam arcs dramatically illuminating nearby surfaces",
+      "Muzzle flash and trailing smoke from the rifle barrel",
+      "Scattered rubble and sparks add to chaotic intensity",
+      "Puddles on the ground reflect the beam's light"
+    ],
+    "debris_detail": [
+      "Shattered glass and twisted metal litter the foreground",
+      "Jagged metal shards and crystalline fragments float chaotically",
+      "Crumpled metal panels and shattered glass litter the scene",
+      "Scattered debris trails from the blast",
+      "Rubble and metal scraps scatter the ground"
+    ],
+    "impact_detail": [
+      "flames and debris radiating outward as it collapses",
+      "limbs twisted in the blast with visible panel lines",
+      "trailing exhaust from jets mixing with rising smoke plumes",
+      "faint sparks and energy distortions rim the breached area"
+    ],
+    "weapon_effect": [
+      "the energy blade trails sparks and heat distortion",
+      "blade edge glowing faintly with heat",
+      "rifle barrel gleams under dim ambient light",
+      "gun barrels show heat distortion and ejecting casings",
+      "bright white light emitting from the energy blade"
+    ],
+    "character_detail": [
+      "face partially shadowed but showing focus",
+      "subtle shadows accentuating jawline tension",
+      "sweat on brow conveying heightened alertness",
+      "beads of sweat visible on skin conveying strain",
+      "uniform shows practical wear with folded collar",
+      "jacket shows subtle wear and insignia patches",
+      "straps and harnesses secure across chest"
+    ],
+    "uniform_detail": [
+      "uniform features rolled sleeves and high collar with visible insignia",
+      "suit fabric shows creases from prolonged wear",
+      "gloved hands grip controls with intensity",
+      "headset microphone positioned near mouth"
+    ],
+    "equipment_detail": [
+      "scattered control interfaces and wiring visible nearby",
+      "multiple control interfaces including joysticks and gauges",
+      "cables and wiring dangle loosely suggesting recent maintenance",
+      "tangled wiring and mechanical joints on the seatback",
+      "orange-bound documents float loosely near controls"
+    ],
+    "instrument_detail": [
+      "control yokes and throttle grips in the foreground",
+      "screens show navigational data in green and red hues",
+      "glowing yellow crosshair reticle overlays the display",
+      "analog gauges and switches glowing faintly",
+      "dashboard of analog gauges switches and small screens"
+    ],
+    "interaction_detail": [
+      "subtle reflections on visor-like screens and metallic rivets add urgency",
+      "faint steam or haze in the air heightens tension",
+      "atmosphere conveys quiet camaraderie amid tension",
+      "posture conveys urgency with sweat visible on brow"
+    ],
+    "terrain_detail": [
+      "sparse sunlight filters through leaves casting dappled shadows",
+      "thin metal poles protrude from the ground",
+      "stepped stone structure resembling ancient ruins in background",
+      "dust and foliage disturbed by recent impact"
+    ],
+    "explosion_desc": [
+      "A massive fireball explosion erupting",
+      "A towering bipedal mobile suit engulfed in a massive fireball",
+      "Billowing orange flames and black smoke"
+    ],
+    "explosion_detail": [
+      "erupting from its torso with flames radiating outward",
+      "billowing outward in irregular bursts",
+      "orange-yellow inferno bleeding into black smoke"
+    ],
+    "render_style": [
+      "Rendered in a late-1990s anime cel animation style, featuring bold linework, flat color blocks with subtle cel shading",
+      "Rendered in a late-1990s anime cel style with bold linework, cel-shaded highlights on metallic surfaces",
+      "Hand-drawn anime cel animation in a late-1990s style, featuring clean linework, flat color blocks with subtle gradients",
+      "Hand-drawn anime cel aesthetic from the late 1990s, with bold linework, high-contrast shading",
+      "Hand-painted cel animation in a late-1990s aesthetic, with clean linework, soft cel shading",
+      "Late-1990s anime cel animation style with bold linework, high-contrast lighting",
+      "Classic late-1990s anime cel animation, bold linework defining contours, flat color shading with subtle gradients",
+      "Executed in a late-1990s anime cel animation style with clean linework, flat color shading"
+    ],
+    "palette": [
+      "and a desaturated palette dominated by cool blues and grays for a gritty, militaristic tone",
+      "and a desaturated color palette dominated by deep blues, blacks, and subtle neon accents for a tense, immersive wartime feel",
+      "and a desaturated palette dominated by dark greens, blacks, and muted skin tones, evoking a gritty, realistic wartime atmosphere",
+      "and a muted palette of greens, grays, and deep blues evoking a high-stakes military atmosphere",
+      "and a desaturated palette of grays, whites, and subtle blues for grounded realism",
+      "and earthy tones dominating for a grounded military realism",
+      "dominated by deep blues, warm oranges from the sun, and desaturated grays for a gritty, war-torn realism",
+      "of deep blues and stark whites against total darkness for intensity and mechanical precision",
+      "with vibrant primary colors on machinery contrasting against muted urban grays",
+      "of greens, blacks, and muted pinks to evoke gritty wartime realism"
+    ]
+  }
+}
