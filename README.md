@@ -2,6 +2,12 @@
 
 **Zero files. Zero storage. Infinite prompts.**
 
+# Part of the DJZ-Zerobytes 0(1) procedural collection
+- https://github.com/MushroomFleet/ComfyUI-DJZ-ZeroPrompt
+- https://github.com/MushroomFleet/ComfyUI-ZeroENH
+- https://github.com/MushroomFleet/ComfyUI-ZeroEDIT-nodes
+
+
 A ComfyUI custom node pack that generates deterministic prompts using position-is-seed procedural generation. Instead of reading from user-maintained text files, these nodes compute prompts directly from mathematical coordinates—the same seed and index will always produce the same prompt, everywhere, every time.
 
 ![ZeroPrompt Banner](https://img.shields.io/badge/Prompts-188%20Trillion+-blue?style=for-the-badge)
